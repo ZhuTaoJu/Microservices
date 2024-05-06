@@ -1,0 +1,19 @@
+{
+  //infrastructure : 基础设施；写库配置，库操作（表配置，数据迁移，Repositories），链接库；
+}
+
+//Migration 数据迁移指令
+//Add-Migration init  -context EmailDBContext -OutputDir G:\yidatong\eShopOnContainers-dev\src\Services\Email\Email.API\Email.API\Infrastructure\EntityMigration
+
+//Update-Database InitialCreate
+//Update-Database 20180904195021_InitialCreate -Connection your_connection_string
+
+//Update-Database -context EmailDBContext
+
+
+//apt-get install -y dotnet-sdk-7.0
+//apt-get install -y aspnetcore-runtime-7.0
+
+  //apt-get install -y dotnet-sdk-8.0
+
+
